@@ -303,3 +303,48 @@ footer .text-dx span {
   border-bottom-right-radius: 0;
 }
 /* /LINGUETTA HELP */
+
+/* CONTAINER RIQUADRO DOPPIO COME SI E' USATO SOPRA */
+/* RIQUADRO MANI */
+.riquadro-mani,
+.riquadro-text{
+  width: 50%;
+}
+
+.riquadro-mani img{
+  width: 100%;
+}
+
+/* TESTO  RIQUADRO */
+.riquadro-text .text{
+  padding: 0 10%;
+}
+
+
+.riquadro-text .text p{
+  color: #A9A9A7;
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+/* PULSANTE E TESTO RIQUADRO */
+
+.contenitore-text{
+  width: 100%;
+  padding: 0 70px;
+}
+
+.contenitore-text .btn.btn-green{
+  padding: 10px 13px;
+  width: 50%;
+  font-size: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  text-align: left;
+}
+
+.contenitore-text p{
+  font-size: 20px;
+  text-align: center;
+  color: #B9C6DB;
+}
