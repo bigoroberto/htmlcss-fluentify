@@ -231,7 +231,7 @@ header {
   width: 100%;
   padding: 0 10%;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 150px;
 }
 
 .riquadro-doppio-sx,
@@ -307,44 +307,87 @@ footer .text-dx span {
 /* CONTAINER RIQUADRO DOPPIO COME SI E' USATO SOPRA */
 /* RIQUADRO MANI */
 .riquadro-mani,
-.riquadro-text{
+.riquadro-text {
   width: 50%;
+  margin-bottom: 60px;
 }
 
-.riquadro-mani img{
+.riquadro-mani img {
   width: 100%;
 }
 
 /* TESTO  RIQUADRO */
-.riquadro-text .text{
+.riquadro-text .text {
   padding: 0 10%;
 }
 
-
-.riquadro-text .text p{
-  color: #A9A9A7;
+.riquadro-text .text p {
+  color: #a9a9a7;
   font-size: 24px;
   padding: 20px 0;
 }
 
 /* PULSANTE E TESTO RIQUADRO */
-
-.contenitore-text{
+.contenitore-text {
   width: 100%;
   padding: 0 70px;
 }
 
-.contenitore-text .btn.btn-green{
+.contenitore-text .btn.btn-green {
   padding: 10px 13px;
   width: 50%;
   font-size: 20px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
   text-align: left;
 }
 
-.contenitore-text p{
-  font-size: 20px;
+.contenitore-text p {
+  font-size: 21px;
   text-align: center;
-  color: #B9C6DB;
+  color: #b9c6db;
 }
+/* /PULSANTE E TESTO RIQUADRO */
+
+/* SEZIONE COMPUTER CENTRO */
+.computer-centro {
+  width: 100%;
+  padding: 0 20%;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.computer-centro img {
+  width: 100%;
+}
+
+/* TESTO COMPUTER CENTRO */
+.computer-centro .text h2,
+.computer-centro .text h6,
+.computer-centro .text p {
+  padding: 10px 0;
+}
+
+.computer-centro .text h2,
+.computer-centro .text p {
+  font-size: 30px;
+}
+
+#text-verde {
+  color: #87af1b;
+}
+
+.computer-centro .text h6 {
+  font-size: 20px;
+}
+
+.computer-centro .text h6,
+.computer-centro .text p {
+  color: #a0a0a2;
+}
+
+.computer-centro .text a {
+  font-size: 20px;
+  line-height: 60px;
+  color: #b9c6db;
+}
+/* /TESTO COMPUTER CENTRO */
